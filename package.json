@@ -23,7 +23,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aivory/monitor-agents"
+    "url": "https://github.com/aivorynet/agent-nodejs.git"
+  },
+  "homepage": "https://aivory.net/monitor/",
+  "bugs": {
+    "url": "https://github.com/aivorynet/agent-nodejs/issues"
   },
   "engines": {
     "node": ">=16.0.0"
