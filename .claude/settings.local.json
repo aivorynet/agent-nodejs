@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_aiv_aivory__get_ticket_fix_context"
+    ]
+  }
+}

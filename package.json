@@ -1,0 +1,50 @@
+{
+  "name": "@aivory/monitor-agent-nodejs",
+  "version": "1.0.0",
+  "description": "AIVory Monitor Node.js agent for exception capture and breakpoints",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "aivory",
+    "monitor",
+    "debugging",
+    "exception",
+    "nodejs",
+    "agent"
+  ],
+  "author": "AIVory",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aivory/monitor-agents"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.16.0",
+    "source-map": "^0.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/ws": "^8.5.10",
+    "typescript": "^5.3.3",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.11",
+    "ts-jest": "^29.1.1",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^6.18.0",
+    "@typescript-eslint/parser": "^6.18.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
