@@ -1,6 +1,6 @@
 {
   "name": "@aivorynet/monitor-agent-nodejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AIVory Monitor Node.js agent for exception capture and breakpoints",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
