@@ -685,7 +685,7 @@ export class InspectorManager {
         captured.value = String(value.value);
         break;
 
-      case 'string':
+      case 'string': {
         const strValue = value.value as string;
         if (strValue.length > 500) {
           captured.value = strValue.substring(0, 500);
@@ -694,6 +694,7 @@ export class InspectorManager {
           captured.value = strValue;
         }
         break;
+      }
 
       case 'symbol':
         captured.value = value.description || 'Symbol';
