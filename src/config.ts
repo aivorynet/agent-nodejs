@@ -75,7 +75,7 @@ export class AgentConfig {
 
   constructor(options: ConfigOptions) {
     this.apiKey = options.apiKey || process.env.AIVORY_API_KEY || '';
-    this.backendUrl = options.backendUrl || process.env.AIVORY_BACKEND_URL || 'wss://api.aivory.net/ws/agent';
+    this.backendUrl = options.backendUrl || process.env.AIVORY_BACKEND_URL || 'wss://api.aivory.net/monitor/agent';
     console.log(`[AIVory Monitor] Backend URL: ${this.backendUrl}`);
     this.environment = options.environment || process.env.AIVORY_ENVIRONMENT || 'production';
     this.samplingRate = options.samplingRate ?? parseFloat(process.env.AIVORY_SAMPLING_RATE || '1.0');

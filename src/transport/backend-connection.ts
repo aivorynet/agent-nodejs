@@ -190,7 +190,7 @@ export class BackendConnection extends EventEmitter {
       agent_id: this.config.agentId,
       hostname: this.config.hostname,
       environment: this.config.environment,
-      agent_version: '1.0.0',
+      agent_version: '1.0.2',
       ...this.config.getRuntimeInfo()
     };
 

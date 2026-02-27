@@ -4,6 +4,16 @@ All notable changes to the AIVory Monitor Node.js Agent will be documented in th
 
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.0.2] - 2026-02-27
+
+### Changed
+- Updated WebSocket endpoint to `wss://api.aivory.net/monitor/agent`
+
+## [1.0.1] - 2026-02-17
+
+### Fixed
+- Release workflow and publish pipeline fixes
+
 ## [1.0.0] - 2026-02-16
 
 ### Added
